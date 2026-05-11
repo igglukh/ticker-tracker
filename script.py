@@ -179,14 +179,14 @@ def fetch_ticker_details(symbol: str) -> dict:
         price = clean_number(price)
         previous_close = clean_number(previous_close)
 
-        result["price"] = price
-
+        result["price"] = round(price, 2) if price is not None else None
+        
         if price is not None and previous_close is not None and previous_close != 0:
             change = price - previous_close
             percent_change = (change / previous_close) * 100
-
-            result["change"] = round(change, 6)
-            result["percent_change"] = round(percent_change, 6)
+        
+            result["change"] = round(change, 2)
+            result["percent_change"] = round(percent_change, 2)
 
         # 4. Sector / industry
         try:
