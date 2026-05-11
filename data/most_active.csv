@@ -1,15 +1,26 @@
 date,ticker,name,price,change,percent_change,sector,industry
-2026-05-11,CTRA,Coterra Energy Inc.,32.56,-1.544,-4.527328,Energy,Oil & Gas E&P
-2026-05-11,INTC,Intel Corporation,129.23719787597656,3.237098,2.569123,Technology,Semiconductors
-2026-05-11,NOK,Nokia Oyj,12.984999656677246,0.005,0.038518,Technology,Communication Equipment
-2026-05-11,IREN,IREN Limited,53.040000915527344,-7.759999,-12.763156,Financial Services,Capital Markets
-2026-05-11,MU,"Micron Technology, Inc.",798.8900146484375,41.540715,5.485014,Technology,Semiconductors
-2026-05-11,NVDA,NVIDIA Corporation,215.1999969482422,0.149997,0.06975,Technology,Semiconductors
-2026-05-11,CRCL,Circle Internet Group,108.91999816894531,-7.029002,-6.06215,Financial Services,Capital Markets
-2026-05-11,KEEL,Keel Infrastructure Corp.,3.819999933242798,-0.1315,-3.327852,Technology,Information Technology Services
-2026-05-11,QCOM,QUALCOMM Incorporated,244.36000061035156,23.060001,10.420244,Technology,Semiconductors
-2026-05-11,AMD,"Advanced Micro Devices, Inc.",464.45001220703125,3.250012,0.704686,Technology,Semiconductors
-2026-05-11,NVTS,Navitas Semiconductor Corporation,19.959999084472656,1.839999,10.15452,Technology,Semiconductors
-2026-05-11,SOFI,"SoFi Technologies, Inc.",16.04199981689453,0.2122,1.340509,Financial Services,Credit Services
-2026-05-11,PLUG,Plug Power Inc.,3.191200017929077,0.0612,1.955272,Industrials,Electrical Equipment & Parts
-2026-05-11,CUK,Carnival Corporation & plc,27.47,1.59,6.14374,Consumer Cyclical,Travel Services
+2026-05-11,INTC,Intel Corporation,129.44,3.44,2.73,Technology,Semiconductors
+2026-05-11,NVDA,NVIDIA Corporation,219.44,4.39,2.04,Technology,Semiconductors
+2026-05-11,PLUG,Plug Power Inc.,3.52,0.39,12.46,Industrials,Electrical Equipment & Parts
+2026-05-11,NOK,Nokia Oyj,13.92,0.94,7.24,Technology,Communication Equipment
+2026-05-11,IREN,IREN Limited,55.15,-5.65,-9.29,Financial Services,Capital Markets
+2026-05-11,POET,POET Technologies Inc.,13.9,2.71,24.22,Technology,Semiconductors
+2026-05-11,CTRA,Coterra Energy Inc.,32.56,-1.54,-4.53,Energy,Oil & Gas E&P
+2026-05-11,TSLA,"Tesla, Inc.",445.0,17.02,3.98,Consumer Cyclical,Auto Manufacturers
+2026-05-11,NVTS,Navitas Semiconductor Corporation,22.65,4.53,25.0,Technology,Semiconductors
+2026-05-11,SOFI,"SoFi Technologies, Inc.",16.26,0.43,2.72,Financial Services,Credit Services
+2026-05-11,MU,"Micron Technology, Inc.",795.33,37.98,5.01,Technology,Semiconductors
+2026-05-11,KEEL,Keel Infrastructure Corp.,4.3,0.35,8.82,Technology,Information Technology Services
+2026-05-11,ACHR,Archer Aviation Inc.,6.54,0.02,0.31,Industrials,Aerospace & Defense
+2026-05-11,RKLB,Rocket Lab Corporation,117.35,11.33,10.69,Industrials,Aerospace & Defense
+2026-05-11,IONQ,"IonQ, Inc.",56.89,8.18,16.79,Technology,Computer Hardware
+2026-05-11,NU,Nu Holdings Ltd.,13.5,-0.36,-2.6,Financial Services,Banks - Regional
+2026-05-11,GRAB,Grab Holdings Limited,3.65,-0.08,-2.15,Technology,Software - Application
+2026-05-11,AAL,American Airlines Group Inc.,12.79,-0.52,-3.91,Industrials,Airlines
+2026-05-11,SMR,NuScale Power Corporation,13.29,0.87,7.0,Industrials,Specialty Industrial Machinery
+2026-05-11,AMD,"Advanced Micro Devices, Inc.",458.79,-2.41,-0.52,Technology,Semiconductors
+2026-05-11,MARA,"MARA Holdings, Inc.",13.39,0.42,3.24,Financial Services,Capital Markets
+2026-05-11,RDW,Redwire Corporation,12.16,1.15,10.45,Industrials,Aerospace & Defense
+2026-05-11,F,Ford Motor Company,12.05,-0.3,-2.43,Consumer Cyclical,Auto Manufacturers
+2026-05-11,BBD,Banco Bradesco S.A.,3.65,-0.14,-3.69,Financial Services,Banks - Regional
+2026-05-11,BBAI,"BigBear.ai Holdings, Inc.",4.32,0.17,4.1,Technology,Information Technology Services

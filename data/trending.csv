@@ -1,26 +1,26 @@
 date,ticker,name,price,change,percent_change,sector,industry
-2026-05-11,INTC,Intel Corporation,129.02999877929688,3.029899,2.40468,Technology,Semiconductors
-2026-05-11,MU,"Micron Technology, Inc.",798.9000244140625,41.550724,5.486336,Technology,Semiconductors
-2026-05-11,MRAM,"Everspin Technologies, Inc.",38.91999816894531,2.871098,7.964454,Technology,Semiconductors
-2026-05-11,CRCL,Circle Internet Group,108.55999755859375,-7.389002,-6.372631,Financial Services,Capital Markets
-2026-05-11,MRNA,"Moderna, Inc.",57.059200286865234,0.7592,1.348491,Healthcare,Biotechnology
-2026-05-11,MNDY,monday.com Ltd.,85.4999008178711,12.437901,17.023762,Technology,Software - Application
-2026-05-11,CEG,Constellation Energy Corporation,301.0799865722656,-6.920013,-2.246758,Utilities,Utilities - Independent Power Producers
-2026-05-11,HIMS,"Hims & Hers Health, Inc.",28.975000381469727,-0.115,-0.395324,Healthcare,Drug Manufacturers - Specialty & Generic
-2026-05-11,MOS,The Mosaic Company,21.665000915527344,-0.684999,-3.064873,Basic Materials,Agricultural Inputs
-2026-05-11,KEEL,Keel Infrastructure Corp.,3.829400062561035,-0.1221,-3.089964,Technology,Information Technology Services
-2026-05-11,B,Barrick Mining Corporation,45.880001068115234,2.710001,6.27751,Basic Materials,Gold
-2026-05-11,CLIK,Click Holdings Limited,3.3550000190734863,1.125,50.448431,Consumer Cyclical,Personal Services
-2026-05-11,DGXX,Digi Power X Inc.,7.659999847412109,1.2152,18.855509,Utilities,Utilities - Independent Power Producers
-2026-05-11,POET,POET Technologies Inc.,11.817299842834473,0.6274,5.60684,Technology,Semiconductors
-2026-05-11,DELL,Dell Technologies Inc.,247.28500366210938,-15.403796,-5.863895,Technology,Computer Hardware
-2026-05-11,MEHA,Functional Brands Inc.,0.16279999911785126,0.0708,76.956521,Consumer Defensive,Packaged Foods
-2026-05-11,ASTS,"AST SpaceMobile, Inc.",78.37000274658203,3.510203,4.689036,Technology,Communication Equipment
-2026-05-11,AMD,"Advanced Micro Devices, Inc.",464.05499267578125,2.854993,0.619036,Technology,Semiconductors
-2026-05-11,BW,"Babcock & Wilcox Enterprises, Inc.",16.023000717163086,1.483001,10.199455,Industrials,Specialty Industrial Machinery
-2026-05-11,DRTS,Alpha Tau Medical Ltd.,9.381799697875977,0.7518,8.711468,Healthcare,Biotechnology
-2026-05-11,SATS,EchoStar Corporation,127.68499755859375,-0.015002,-0.011748,Communication Services,Telecom Services
-2026-05-11,P,"Everpure, Inc.",84.81999969482422,3.29,4.035324,Technology,Computer Hardware
-2026-05-11,GAMB,Gambling.com Group Limited,5.049900054931641,0.5099,11.231279,Consumer Cyclical,Gambling
-2026-05-11,HPAI,Helport AI Limited,1.2999000549316406,-0.1301,-9.097898,Technology,Software - Infrastructure
-2026-05-11,CEVA,"CEVA, Inc.",34.00920104980469,-3.338199,-8.938237,Technology,Semiconductors
+2026-05-11,MRAM,"Everspin Technologies, Inc.",39.86,3.81,10.57,Technology,Semiconductors
+2026-05-11,PLUG,Plug Power Inc.,3.52,0.39,12.46,Industrials,Electrical Equipment & Parts
+2026-05-11,CRCL,Circle Internet Group,131.76,15.81,13.64,Financial Services,Capital Markets
+2026-05-11,IONQ,"IonQ, Inc.",56.89,8.18,16.79,Technology,Computer Hardware
+2026-05-11,ISRG,"Intuitive Surgical, Inc.",420.06,-30.94,-6.86,Healthcare,Medical Instruments & Supplies
+2026-05-11,POET,POET Technologies Inc.,13.9,2.71,24.22,Technology,Semiconductors
+2026-05-11,ELF,"e.l.f. Beauty, Inc.",55.19,-5.73,-9.41,Consumer Defensive,Household & Personal Products
+2026-05-11,TSLA,"Tesla, Inc.",445.0,17.02,3.98,Consumer Cyclical,Auto Manufacturers
+2026-05-11,RGTI,"Rigetti Computing, Inc.",20.51,1.43,7.49,Technology,Computer Hardware
+2026-05-11,BW,"Babcock & Wilcox Enterprises, Inc.",18.91,4.37,30.06,Industrials,Specialty Industrial Machinery
+2026-05-11,NVTS,Navitas Semiconductor Corporation,22.65,4.53,25.0,Technology,Semiconductors
+2026-05-11,WOK,WORK Medical Technology Group LTD,3.92,2.66,211.11,Healthcare,Medical Devices
+2026-05-11,NOK,Nokia Oyj,13.92,0.94,7.24,Technology,Communication Equipment
+2026-05-11,GSIT,"GSI Technology, Inc.",11.72,2.72,30.23,Technology,Semiconductors
+2026-05-11,MNDY,monday.com Ltd.,76.91,3.85,5.27,Technology,Software - Application
+2026-05-11,LQDA,Liquidia Corporation,53.13,10.21,23.78,Healthcare,Drug Manufacturers - Specialty & Generic
+2026-05-11,QBTS,D-Wave Quantum Inc.,24.03,1.44,6.37,Technology,Computer Hardware
+2026-05-11,PM,Philip Morris International Inc.,182.11,11.29,6.61,Consumer Defensive,Tobacco
+2026-05-11,PSIX,"Power Solutions International, Inc.",62.45,-13.74,-18.03,Industrials,Specialty Industrial Machinery
+2026-05-11,ODYS,Odysight.ai Inc.,4.75,0.43,9.95,Technology,Scientific & Technical Instruments
+2026-05-11,MEHA,Functional Brands Inc.,0.12,0.03,30.43,Consumer Defensive,Packaged Foods
+2026-05-11,PRSO,Peraso Inc.,1.38,0.35,33.99,Technology,Semiconductors
+2026-05-11,SHOP,Shopify Inc.,102.54,-7.82,-7.09,Technology,Software - Application
+2026-05-11,DG,Dollar General Corporation,104.63,-9.25,-8.12,Consumer Defensive,Discount Stores
+2026-05-11,QS,QuantumScape Corporation,8.03,0.5,6.64,Consumer Cyclical,Auto Parts
