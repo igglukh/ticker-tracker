@@ -4,8 +4,9 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 12 * * 1-5"
-      timezone: "America/New_York"
+    # 12:00 New York time during daylight saving time = 16:00 UTC
+    # 12:00 New York time during standard time = 17:00 UTC
+    - cron: "0 16 * * 1-5"
 
 permissions:
   contents: write
@@ -21,6 +22,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -39,17 +42,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-      
+
           git add data/trending.csv data/most_active.csv
-      
+
           if git diff --cached --quiet; then
             echo "No CSV changes to commit."
-          else
-            git commit -m "Append Yahoo Finance ticker data"
-      
-            # Get the latest remote changes before pushing
-            git pull --rebase origin main
-      
-            # Push the rebased commit
-            git push origin HEAD:main
+            exit 0
           fi
+
+          git commit -m "Append Yahoo Finance ticker data"
+
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
