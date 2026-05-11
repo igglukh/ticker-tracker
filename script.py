@@ -138,21 +138,35 @@ def get_most_active_data(max_workers: int = 10) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
+    os.makedirs("data", exist_ok=True)
+
     # --------- Trending ---------
     df_trending = get_trending_data()
     print("Trending:")
     print(df_trending.to_string(index=False))
 
-    trending_csv = "tranding.csv"  # keep your original name
+    trending_csv = "data/trending.csv"
     trending_exists = os.path.isfile(trending_csv)
-    df_trending.to_csv(trending_csv, mode="a", index=False, header=not trending_exists)
+
+    df_trending.to_csv(
+        trending_csv,
+        mode="a",
+        index=False,
+        header=not trending_exists
+    )
 
     # --------- Most Active ---------
     df_most_active = get_most_active_data()
-    #print("\nMost Active:")
-    #print(df_most_active.to_string(index=False))
+    print("\nMost Active:")
+    print(df_most_active.to_string(index=False))
 
-    most_active_csv = "most_active.csv"
+    most_active_csv = "data/most_active.csv"
     most_active_exists = os.path.isfile(most_active_csv)
-    df_most_active.to_csv(most_active_csv, mode="a", index=False, header=not most_active_exists)
+
+    df_most_active.to_csv(
+        most_active_csv,
+        mode="a",
+        index=False,
+        header=not most_active_exists
+    )
     
