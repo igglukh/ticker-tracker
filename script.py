@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import yfinance as yf
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
@@ -13,7 +14,7 @@ URL_MOST_ACTIVE = "https://finance.yahoo.com/markets/stocks/most-active/"
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
-
+RUN_DATE = datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
 # ---------- helpers for sector / industry via yfinance ----------
 
 def _sector_industry_from_info(info: dict):
@@ -118,7 +119,7 @@ def _parse_yahoo_table(url: str, max_workers: int = 10) -> pd.DataFrame:
                           if pct_tag is not None else cols[4].get_text(strip=True))
 
         rows.append({
-            "date": datetime.today().strftime("%Y-%m-%d"),
+            "date": RUN_DATE,
             "ticker": ticker,
             "name": name,
             "price": clean_number(price),
@@ -157,7 +158,26 @@ def get_trending_data(max_workers: int = 10) -> pd.DataFrame:
 def get_most_active_data(max_workers: int = 10) -> pd.DataFrame:
     """Yahoo Finance 'Most Active' stocks."""
     return _parse_yahoo_table(URL_MOST_ACTIVE, max_workers=max_workers)
+def save_replace_run_date(df: pd.DataFrame, csv_path: str) -> None:
+    """
+    Save today's scraped data by replacing existing rows for RUN_DATE.
+    If the file does not exist, create it.
+    If the file exists, remove rows with the same date and append the new rows.
+    """
+    os.makedirs(os.path.dirname(csv_path), exist_ok=True)
 
+    if os.path.isfile(csv_path):
+        existing_df = pd.read_csv(csv_path)
+
+        if "date" in existing_df.columns:
+            existing_df["date"] = existing_df["date"].astype(str)
+            existing_df = existing_df[existing_df["date"] != RUN_DATE]
+
+        combined_df = pd.concat([existing_df, df], ignore_index=True)
+    else:
+        combined_df = df.copy()
+
+    combined_df.to_csv(csv_path, index=False)
 
 if __name__ == "__main__":
     os.makedirs("data", exist_ok=True)
@@ -168,14 +188,7 @@ if __name__ == "__main__":
     print(df_trending.to_string(index=False))
 
     trending_csv = "data/trending.csv"
-    trending_exists = os.path.isfile(trending_csv)
-
-    df_trending.to_csv(
-        trending_csv,
-        mode="a",
-        index=False,
-        header=not trending_exists
-    )
+    save_replace_run_date(df_trending, trending_csv)
 
     # --------- Most Active ---------
     df_most_active = get_most_active_data()
@@ -183,12 +196,4 @@ if __name__ == "__main__":
     print(df_most_active.to_string(index=False))
 
     most_active_csv = "data/most_active.csv"
-    most_active_exists = os.path.isfile(most_active_csv)
-
-    df_most_active.to_csv(
-        most_active_csv,
-        mode="a",
-        index=False,
-        header=not most_active_exists
-    )
-    
+    save_replace_run_date(df_most_active, most_active_csv)
