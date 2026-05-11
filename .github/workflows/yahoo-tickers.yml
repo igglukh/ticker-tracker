@@ -39,12 +39,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
+      
           git add data/trending.csv data/most_active.csv
-
+      
           if git diff --cached --quiet; then
             echo "No CSV changes to commit."
           else
             git commit -m "Append Yahoo Finance ticker data"
-            git push
+      
+            # Get the latest remote changes before pushing
+            git pull --rebase origin main
+      
+            # Push the rebased commit
+            git push origin HEAD:main
           fi
