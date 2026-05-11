@@ -1,0 +1,26 @@
+date,ticker,name,price,change,percent_change,sector,industry
+2026-05-11,INTC,Intel Corporation,,15.25,13.9085,Technology,Semiconductors
+2026-05-11,NVDA,NVIDIA Corporation,,3.737,1.76707,Technology,Semiconductors
+2026-05-11,IREN,IREN Limited,,4.3499985,7.651712,Financial Services,Capital Markets
+2026-05-11,NOK,Nokia Oyj,,0.469999,3.80566,Technology,Communication Equipment
+2026-05-11,RKLB,Rocket Lab Corporation,,27.039993,34.443657,Industrials,Aerospace & Defense
+2026-05-11,ABEV,Ambev S.A.,,0.00999999,0.304878,Consumer Defensive,Beverages - Brewers
+2026-05-11,CTRA,Coterra Energy Inc.,,-3.07,-8.61633,Energy,Oil & Gas E&P
+2026-05-11,MU,"Micron Technology, Inc.",,100.29999,15.514546,Technology,Semiconductors
+2026-05-11,TSLA,"Tesla, Inc.",,16.540009,4.0164175,Consumer Cyclical,Auto Manufacturers
+2026-05-11,AMD,"Advanced Micro Devices, Inc.",,46.73001,11.440536,Technology,Semiconductors
+2026-05-11,AAL,American Airlines Group Inc.,,0.17000008,1.2898337,Industrials,Airlines
+2026-05-11,BB,BlackBerry Limited,,0.27,4.42623,Technology,Software - Infrastructure
+2026-05-11,RDW,Redwire Corporation,,1.87,20.3261,Industrials,Aerospace & Defense
+2026-05-11,SOFI,"SoFi Technologies, Inc.",,-0.25,-1.5625,Financial Services,Credit Services
+2026-05-11,EOSE,"Eos Energy Enterprises, Inc.",,1.6500001,25.943398,Industrials,Electrical Equipment & Parts
+2026-05-11,OPEN,Opendoor Technologies Inc.,,-0.30999994,-5.8270664,Real Estate,Real Estate Services
+2026-05-11,AAPL,Apple Inc.,,5.770996,2.0074008,Technology,Consumer Electronics
+2026-05-11,GRAB,Grab Holdings Limited,,-0.06999993,-1.8469639,Technology,Software - Application
+2026-05-11,NU,Nu Holdings Ltd.,,-0.46,-3.22581,Financial Services,Banks - Regional
+2026-05-11,SMCI,"Super Micro Computer, Inc.",,1.75,5.2052355,Technology,Computer Hardware
+2026-05-11,SOUN,"SoundHound AI, Inc.",,-0.75,-7.7881618,Technology,Software - Application
+2026-05-11,CRWV,"CoreWeave, Inc.",,-14.689995,-11.401735,Technology,Software - Infrastructure
+2026-05-11,MARA,"MARA Holdings, Inc.",,0.23999977,1.889762,Financial Services,Capital Markets
+2026-05-11,PLUG,Plug Power Inc.,,-0.00999999,-0.31948853,Industrials,Electrical Equipment & Parts
+2026-05-11,ACHR,Archer Aviation Inc.,,0.2,3.18471,Industrials,Aerospace & Defense
