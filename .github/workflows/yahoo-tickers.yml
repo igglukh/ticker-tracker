@@ -5,7 +5,6 @@ on:
 
   schedule:
     # 12:00 New York time during daylight saving time = 16:00 UTC
-    # 12:00 New York time during standard time = 17:00 UTC
     - cron: "0 16 * * 1-5"
 
 permissions:
@@ -21,12 +20,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -40,8 +39,12 @@ jobs:
 
       - name: Commit updated CSV files
         run: |
+          set -euxo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git status --short
 
           git add data/trending.csv data/most_active.csv
 
@@ -52,7 +55,5 @@ jobs:
 
           git commit -m "Append Yahoo Finance ticker data"
 
-          git fetch origin main
-          git rebase origin/main
-
+          git pull --rebase origin main
           git push origin HEAD:main
