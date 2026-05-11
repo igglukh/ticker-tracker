@@ -60,7 +60,30 @@ def fetch_sector_industry(symbol: str) -> dict:
 
 
 # ---------- generic parser for a Yahoo table page ----------
+def clean_number(value):
+    """
+    Convert Yahoo-style strings like '+1.23', '13.90%', '1,234.56'
+    into floats where possible.
+    """
+    if value is None:
+        return None
 
+    value = str(value).strip()
+
+    if value == "":
+        return None
+
+    value = (
+        value.replace(",", "")
+             .replace("%", "")
+             .replace("+", "")
+             .replace("$", "")
+    )
+
+    try:
+        return float(value)
+    except ValueError:
+        return value
 def _parse_yahoo_table(url: str, max_workers: int = 10) -> pd.DataFrame:
     response = requests.get(url, headers=HEADERS, timeout=15)
     response.raise_for_status()
@@ -98,11 +121,10 @@ def _parse_yahoo_table(url: str, max_workers: int = 10) -> pd.DataFrame:
             "date": datetime.today().strftime("%Y-%m-%d"),
             "ticker": ticker,
             "name": name,
-            "price": price,
-            "change": change,
-            "percent_change": percent_change,
+            "price": clean_number(price),
+            "change": clean_number(change),
+            "percent_change": clean_number(percent_change),
         })
-        tickers.append(ticker)
 
     if not rows:
         return pd.DataFrame(columns=[
