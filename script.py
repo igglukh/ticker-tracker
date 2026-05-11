@@ -85,6 +85,85 @@ def clean_number(value):
         return float(value)
     except ValueError:
         return value
+def fetch_price_fallback(symbol: str):
+    """
+    Fallback price from yfinance when Yahoo page parsing gives empty price.
+    """
+    try:
+        tkr = yf.Ticker(symbol)
+
+        # Try fast_info first
+        try:
+            fast_info = tkr.fast_info
+
+            for key in [
+                "last_price",
+                "lastPrice",
+                "regular_market_price",
+                "regularMarketPrice",
+            ]:
+                try:
+                    value = fast_info.get(key)
+                except Exception:
+                    value = getattr(fast_info, key, None)
+
+                if value is not None and str(value).strip() != "":
+                    return value
+        except Exception:
+            pass
+
+        # Try info next
+        try:
+            info = tkr.get_info() or {}
+
+            for key in [
+                "currentPrice",
+                "regularMarketPrice",
+                "previousClose",
+            ]:
+                value = info.get(key)
+
+                if value is not None and str(value).strip() != "":
+                    return value
+        except Exception:
+            pass
+
+        # Final fallback: latest close from history
+        try:
+            hist = tkr.history(period="5d", interval="1d")
+
+            if not hist.empty:
+                return hist["Close"].dropna().iloc[-1]
+        except Exception:
+            pass
+
+    except Exception:
+        pass
+
+    return None
+def clean_number(value):
+    """
+    Convert Yahoo/yfinance values into clean numeric values where possible.
+    """
+    if value is None:
+        return None
+
+    value = str(value).strip()
+
+    if value == "":
+        return None
+
+    value = (
+        value.replace(",", "")
+             .replace("%", "")
+             .replace("+", "")
+             .replace("$", "")
+    )
+
+    try:
+        return float(value)
+    except ValueError:
+        return value
 def _parse_yahoo_table(url: str, max_workers: int = 10) -> pd.DataFrame:
     response = requests.get(url, headers=HEADERS, timeout=15)
     response.raise_for_status()
@@ -104,12 +183,20 @@ def _parse_yahoo_table(url: str, max_workers: int = 10) -> pd.DataFrame:
         name = cols[1].get_text(strip=True)
 
         # --- robust price parsing ---
+        price = None
+        
         price_tag = row.select_one('fin-streamer[data-field="regularMarketPrice"]')
+        
         if price_tag is not None:
             price = price_tag.get("data-value") or price_tag.get_text(strip=True)
-        else:
+        
+        # Yahoo sometimes returns the tag but leaves it empty
+        if not price and len(cols) > 2:
             price = cols[2].get_text(strip=True)
-
+        
+        # yfinance fallback
+        if not price:
+            price = fetch_price_fallback(ticker)
         change_tag = row.select_one('fin-streamer[data-field="regularMarketChange"]')
         pct_tag = row.select_one('fin-streamer[data-field="regularMarketChangePercent"]')
 
