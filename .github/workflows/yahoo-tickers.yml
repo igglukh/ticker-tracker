@@ -4,9 +4,8 @@ on:
   workflow_dispatch:
 
   schedule:
-    # 12:00 New York time during daylight saving time = 16:00 UTC
-    # During standard time, change this to 17:00 UTC if you need exact noon.
-    - cron: "0 16 * * 1-5"
+    - cron: "17 12 * * 1-5"
+      timezone: "America/New_York"
 
 permissions:
   contents: write
