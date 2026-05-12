@@ -24,3 +24,28 @@ date,ticker,name,price,change,percent_change,sector,industry
 2026-05-11,F,Ford Motor Company,12.05,-0.3,-2.43,Consumer Cyclical,Auto Manufacturers
 2026-05-11,BBD,Banco Bradesco S.A.,3.65,-0.14,-3.69,Financial Services,Banks - Regional
 2026-05-11,BBAI,"BigBear.ai Holdings, Inc.",4.32,0.17,4.1,Technology,Information Technology Services
+2026-05-12,PLUG,Plug Power Inc.,3.59,-0.17,-4.61,Industrials,Electrical Equipment & Parts
+2026-05-12,QUBT,Quantum Computing Inc.,11.41,-0.39,-3.3,Technology,Computer Hardware
+2026-05-12,INTC,Intel Corporation,117.98,-10.65,-8.28,Technology,Semiconductors
+2026-05-12,NVDA,NVIDIA Corporation,217.7,-2.0,-0.91,Technology,Semiconductors
+2026-05-12,CTRA,Coterra Energy Inc.,32.56,,,Energy,Oil & Gas E&P
+2026-05-12,NOK,Nokia Oyj,13.02,-0.97,-6.97,Technology,Communication Equipment
+2026-05-12,POET,POET Technologies Inc.,13.69,-0.26,-1.86,Technology,Semiconductors
+2026-05-12,IREN,IREN Limited,54.63,-1.52,-2.71,Financial Services,Capital Markets
+2026-05-12,MU,"Micron Technology, Inc.",726.9,-71.59,-8.97,Technology,Semiconductors
+2026-05-12,HIMS,"Hims & Hers Health, Inc.",25.31,0.18,0.71,Healthcare,Drug Manufacturers - Specialty & Generic
+2026-05-12,RGTI,"Rigetti Computing, Inc.",18.75,-1.72,-8.42,Technology,Computer Hardware
+2026-05-12,TSLA,"Tesla, Inc.",427.65,-16.54,-3.72,Consumer Cyclical,Auto Manufacturers
+2026-05-12,QBTS,D-Wave Quantum Inc.,21.82,-2.83,-11.5,Technology,Computer Hardware
+2026-05-12,SOFI,"SoFi Technologies, Inc.",15.73,-0.61,-3.76,Financial Services,Credit Services
+2026-05-12,MARA,"MARA Holdings, Inc.",12.02,-0.92,-7.07,Financial Services,Capital Markets
+2026-05-12,IONQ,"IonQ, Inc.",53.92,-2.58,-4.57,Technology,Computer Hardware
+2026-05-12,ACHR,Archer Aviation Inc.,6.2,-0.48,-7.26,Industrials,Aerospace & Defense
+2026-05-12,SMR,NuScale Power Corporation,11.76,-1.55,-11.68,Industrials,Specialty Industrial Machinery
+2026-05-12,BMNR,"Bitmine Immersion Technologies, Inc.",21.58,-1.42,-6.15,Financial Services,Capital Markets
+2026-05-12,NVTS,Navitas Semiconductor Corporation,19.27,-2.64,-12.03,Technology,Semiconductors
+2026-05-12,ASTS,"AST SpaceMobile, Inc.",72.4,-1.63,-2.21,Technology,Communication Equipment
+2026-05-12,GRAB,Grab Holdings Limited,3.63,-0.03,-0.68,Technology,Software - Application
+2026-05-12,AMD,"Advanced Micro Devices, Inc.",436.26,-21.79,-4.76,Technology,Semiconductors
+2026-05-12,F,Ford Motor Company,11.91,-0.19,-1.57,Consumer Cyclical,Auto Manufacturers
+2026-05-12,RKLB,Rocket Lab Corporation,117.58,1.76,1.52,Industrials,Aerospace & Defense

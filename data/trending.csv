@@ -24,3 +24,28 @@ date,ticker,name,price,change,percent_change,sector,industry
 2026-05-11,SHOP,Shopify Inc.,102.54,-7.82,-7.09,Technology,Software - Application
 2026-05-11,DG,Dollar General Corporation,104.63,-9.25,-8.12,Consumer Defensive,Discount Stores
 2026-05-11,QS,QuantumScape Corporation,8.03,0.5,6.64,Consumer Cyclical,Auto Parts
+2026-05-12,QUBT,Quantum Computing Inc.,11.41,-0.38,-3.25,Technology,Computer Hardware
+2026-05-12,BZFD,"BuzzFeed, Inc.",1.73,0.01,0.52,Communication Services,Internet Content & Information
+2026-05-12,ERNA,Ernexa Therapeutics Inc.,13.0,5.7,78.08,Healthcare,Biotechnology
+2026-05-12,SE,Sea Limited,94.61,9.56,11.23,Consumer Cyclical,Internet Retail
+2026-05-12,ZBRA,Zebra Technologies Corporation,254.78,36.71,16.83,Technology,Communication Equipment
+2026-05-12,MU,"Micron Technology, Inc.",727.17,-71.32,-8.93,Technology,Semiconductors
+2026-05-12,TDIC,Dreamland Limited,1.89,0.79,72.27,Communication Services,Advertising Agencies
+2026-05-12,VG,"Venture Global, Inc.",13.11,1.35,11.52,Energy,Oil & Gas Midstream
+2026-05-12,CAMT,Camtek Ltd.,171.85,-44.15,-20.44,Technology,Semiconductor Equipment & Materials
+2026-05-12,PACS,"PACS Group, Inc.",38.34,1.35,3.65,Healthcare,Medical Care Facilities
+2026-05-12,UA,"Under Armour, Inc.",4.82,-1.16,-19.48,Consumer Cyclical,Apparel Manufacturing
+2026-05-12,PSIX,"Power Solutions International, Inc.",37.6,-2.49,-6.21,Industrials,Specialty Industrial Machinery
+2026-05-12,UAA,"Under Armour, Inc.",4.95,-1.15,-18.93,Consumer Cyclical,Apparel Manufacturing
+2026-05-12,UNH,UnitedHealth Group Incorporated,390.22,6.77,1.77,Healthcare,Healthcare Plans
+2026-05-12,AEHL,Antelope Enterprise Holdings Limited,1.94,0.65,50.38,Industrials,Building Products & Equipment
+2026-05-12,NFLX,"Netflix, Inc.",88.79,3.46,4.06,Communication Services,Entertainment
+2026-05-12,SOBR,"SOBR Safe, Inc.",1.99,0.44,28.39,Technology,Scientific & Technical Instruments
+2026-05-12,ACM,AECOM,70.2,-10.12,-12.6,Industrials,Engineering & Construction
+2026-05-12,DDD,3D Systems Corporation,3.12,0.41,15.08,Technology,Computer Hardware
+2026-05-12,CNCK,Coincheck Group N.V.,2.24,0.46,26.12,Financial Services,Capital Markets
+2026-05-12,GTM,ZoomInfo Technologies Inc.,3.99,-0.38,-8.58,Technology,Software - Application
+2026-05-12,AMBQ,"Ambiq Micro, Inc.",60.36,14.11,30.51,Technology,Semiconductors
+2026-05-12,CREG,Smart Powerr Corp.,0.23,0.03,15.05,Utilities,Utilities - Renewable
+2026-05-12,BWEN,"Broadwind, Inc.",2.94,0.81,38.22,Industrials,Specialty Industrial Machinery
+2026-05-12,USBC,"USBC, Inc.",0.76,0.17,28.97,Technology,Scientific & Technical Instruments
