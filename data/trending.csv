@@ -49,3 +49,28 @@ date,ticker,name,price,change,percent_change,sector,industry
 2026-05-12,CREG,Smart Powerr Corp.,0.23,0.03,15.05,Utilities,Utilities - Renewable
 2026-05-12,BWEN,"Broadwind, Inc.",2.94,0.81,38.22,Industrials,Specialty Industrial Machinery
 2026-05-12,USBC,"USBC, Inc.",0.76,0.17,28.97,Technology,Scientific & Technical Instruments
+2026-05-13,NBIS,Nebius Group N.V.,210.75,31.05,17.28,Communication Services,Internet Content & Information
+2026-05-13,F,Ford Motor Company,13.34,1.35,11.26,Consumer Cyclical,Auto Manufacturers
+2026-05-13,BABA,Alibaba Group Holding Limited,144.25,8.86,6.54,Consumer Cyclical,Internet Retail
+2026-05-13,WOLF,"Wolfspeed, Inc.",66.1,8.1,13.97,Technology,Semiconductors
+2026-05-13,LCID,"Lucid Group, Inc.",6.57,0.56,9.32,Consumer Cyclical,Auto Manufacturers
+2026-05-13,NIO,NIO Inc.,6.49,0.44,7.27,Consumer Cyclical,Auto Manufacturers
+2026-05-13,WIX,Wix.com Ltd.,56.4,-20.1,-26.27,Technology,Software - Infrastructure
+2026-05-13,EOSE,"Eos Energy Enterprises, Inc.",8.94,0.96,12.09,Industrials,Electrical Equipment & Parts
+2026-05-13,TSLA,"Tesla, Inc.",451.04,20.73,4.82,Consumer Cyclical,Auto Manufacturers
+2026-05-13,OUST,"Ouster, Inc.",32.06,4.05,14.46,Technology,Electronic Components
+2026-05-13,ACN,Accenture plc,158.22,-12.08,-7.09,Technology,Information Technology Services
+2026-05-13,QS,QuantumScape Corporation,8.73,-0.27,-3.06,Consumer Cyclical,Auto Parts
+2026-05-13,VNET,"VNET Group, Inc.",11.43,2.52,28.23,Technology,Information Technology Services
+2026-05-13,PLTR,Palantir Technologies Inc.,131.19,-5.46,-4.0,Technology,Software - Infrastructure
+2026-05-13,ENPH,"Enphase Energy, Inc.",40.83,3.67,9.88,Technology,Solar
+2026-05-13,QUCY,Quantum Cyber N.V.,0.77,0.46,149.95,Healthcare,Diagnostics & Research
+2026-05-13,VELO,"Velo3D, Inc.",20.95,3.36,19.08,Technology,Computer Hardware
+2026-05-13,HD,"The Home Depot, Inc.",299.79,-10.76,-3.46,Consumer Cyclical,Home Improvement Retail
+2026-05-13,LUNR,"Intuitive Machines, Inc.",36.03,4.01,12.52,Industrials,Aerospace & Defense
+2026-05-13,SPGI,S&P Global Inc.,407.47,-18.53,-4.35,Financial Services,Financial Data & Stock Exchanges
+2026-05-13,FRVO,Fervo Energy Company Class A common stock,27.0,0.0,0.0,,
+2026-05-13,CEG,Constellation Energy Corporation,276.13,-16.37,-5.6,Utilities,Utilities - Independent Power Producers
+2026-05-13,BIDU,"Baidu, Inc.",150.24,9.89,7.05,Communication Services,Internet Content & Information
+2026-05-13,AIIO,Robo.ai Inc.,2.15,0.89,70.63,Consumer Cyclical,Auto Manufacturers
+2026-05-13,NOK,Nokia Oyj,14.43,1.18,8.87,Technology,Communication Equipment
