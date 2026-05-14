@@ -74,3 +74,28 @@ date,ticker,name,price,change,percent_change,sector,industry
 2026-05-13,PATH,"UiPath, Inc.",9.47,-0.62,-6.16,Technology,Software - Infrastructure
 2026-05-13,POET,POET Technologies Inc.,14.37,0.7,5.12,Technology,Semiconductors
 2026-05-13,PFE,Pfizer Inc.,25.96,0.04,0.15,Healthcare,Drug Manufacturers - General
+2026-05-14,F,Ford Motor Company,13.57,-0.14,-1.02,Consumer Cyclical,Auto Manufacturers
+2026-05-14,PLUG,Plug Power Inc.,3.96,0.02,0.6,Industrials,Electrical Equipment & Parts
+2026-05-14,NOK,Nokia Oyj,14.71,-0.58,-3.76,Technology,Communication Equipment
+2026-05-14,NVDA,NVIDIA Corporation,225.83,-1.95,-0.86,Technology,Semiconductors
+2026-05-14,EOSE,"Eos Energy Enterprises, Inc.",8.28,0.12,1.47,Industrials,Electrical Equipment & Parts
+2026-05-14,INTC,Intel Corporation,120.29,0.28,0.23,Technology,Semiconductors
+2026-05-14,CTRA,Coterra Energy Inc,32.56,,,Energy,Oil & Gas E&P
+2026-05-14,VNET,"VNET Group, Inc.",11.28,-0.14,-1.22,Technology,Information Technology Services
+2026-05-14,TSLA,"Tesla, Inc.",445.27,-2.93,-0.65,Consumer Cyclical,Auto Manufacturers
+2026-05-14,QS,QuantumScape Corporation,8.66,-0.12,-1.37,Consumer Cyclical,Auto Parts
+2026-05-14,SOFI,"SoFi Technologies, Inc.",15.31,-0.07,-0.46,Financial Services,Credit Services
+2026-05-14,AUR,"Aurora Innovation, Inc.",8.4,-0.16,-1.87,Consumer Cyclical,Auto Parts
+2026-05-14,NIO,NIO Inc.,6.54,-0.0,-0.0,Consumer Cyclical,Auto Manufacturers
+2026-05-14,MU,"Micron Technology, Inc.",803.63,1.13,0.14,Technology,Semiconductors
+2026-05-14,PLTR,Palantir Technologies Inc.,130.05,-0.15,-0.12,Technology,Software - Infrastructure
+2026-05-14,NU,Nu Holdings Ltd.,12.82,-0.16,-1.23,Financial Services,Banks - Regional
+2026-05-14,GRAB,Grab Holdings Limited,3.63,-0.01,-0.27,Technology,Software - Application
+2026-05-14,IREN,IREN Limited,55.17,-0.19,-0.34,Financial Services,Capital Markets
+2026-05-14,ONDS,Ondas Inc.,8.86,-0.26,-2.85,Technology,Communication Equipment
+2026-05-14,ACHR,Archer Aviation Inc.,6.52,-0.07,-0.99,Industrials,Aerospace & Defense
+2026-05-14,BBD,Banco Bradesco S.A.,3.51,-0.13,-3.57,Financial Services,Banks - Regional
+2026-05-14,PATH,"UiPath, Inc.",9.47,-0.03,-0.32,Technology,Software - Infrastructure
+2026-05-14,POET,POET Technologies Inc.,14.37,0.01,0.07,Technology,Semiconductors
+2026-05-14,AAPL,Apple Inc.,298.87,0.31,0.1,Technology,Consumer Electronics
+2026-05-14,BABA,Alibaba Group Holding Limited,145.81,-0.92,-0.63,Consumer Cyclical,Internet Retail
