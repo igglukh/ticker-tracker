@@ -74,28 +74,28 @@ date,ticker,name,price,change,percent_change,sector,industry
 2026-05-13,STUB,"StubHub Holdings, Inc.",7.52,0.27,3.72,Communication Services,Internet Content & Information
 2026-05-13,EOSE,"Eos Energy Enterprises, Inc.",8.28,0.31,3.83,Industrials,Electrical Equipment & Parts
 2026-05-13,AIIO,Robo.ai Inc.,2.61,1.35,107.14,Consumer Cyclical,Auto Manufacturers
-2026-05-14,CSCO,"Cisco Systems, Inc.",101.87,-20.13,-16.5,Technology,Communication Equipment
-2026-05-14,QUCY,Quantum Cyber N.V.,1.34,-0.26,-16.25,Healthcare,Diagnostics & Research
-2026-05-14,NOK,Nokia Oyj,14.71,-0.58,-3.76,Technology,Communication Equipment
-2026-05-14,MRVL,"Marvell Technology, Inc.",177.95,-4.55,-2.49,Technology,Semiconductors
-2026-05-14,ONDS,Ondas Inc.,8.86,-0.26,-2.85,Technology,Communication Equipment
-2026-05-14,F,Ford Motor Company,13.57,-0.14,-1.02,Consumer Cyclical,Auto Manufacturers
-2026-05-14,AIIO,Robo.ai Inc.,2.61,-0.06,-2.25,Consumer Cyclical,Auto Manufacturers
-2026-05-14,SNAL,"Snail, Inc.",0.5,-0.41,-45.09,Communication Services,Electronic Gaming & Multimedia
-2026-05-14,INVZ,Innoviz Technologies Ltd.,0.92,-0.12,-11.83,Consumer Cyclical,Auto Parts
-2026-05-14,NIO,NIO Inc.,6.54,-0.0,-0.0,Consumer Cyclical,Auto Manufacturers
-2026-05-14,DOCS,"Doximity, Inc.",23.39,4.25,22.18,Healthcare,Health Information Services
-2026-05-14,FPS,"Forgent Power Solutions, Inc.",45.52,-2.78,-5.76,Industrials,Electrical Equipment & Parts
-2026-05-14,KLAR,Klarna Group plc,13.69,-0.39,-2.77,Technology,Software - Infrastructure
-2026-05-14,HPE,Hewlett Packard Enterprise Company,32.07,-1.78,-5.26,Technology,Communication Equipment
-2026-05-14,ALP,Alpha Compute Corp,0.27,-0.04,-14.38,Financial Services,Asset Management
-2026-05-14,FRMI,Fermi Inc.,6.0,-0.18,-2.91,Real Estate,REIT - Specialty
-2026-05-14,CSIQ,Canadian Solar Inc.,20.05,-0.31,-1.51,Technology,Solar
-2026-05-14,DXF,Eason Technology Limited,0.76,-0.81,-51.59,Financial Services,Credit Services
-2026-05-14,III.L,3i Group Ord,2140.0,-271.0,-11.24,Financial Services,Asset Management
-2026-05-14,FRVO,Fervo Energy Company Class A common stock,36.54,-0.57,-1.54,,
-2026-05-14,BA,The Boeing Company,240.6,-2.9,-1.19,Industrials,Aerospace & Defense
-2026-05-14,PGEN,"Precigen, Inc.",4.15,-0.35,-7.78,Healthcare,Biotechnology
-2026-05-14,AAPL,Apple Inc.,298.87,0.31,0.1,Technology,Consumer Electronics
-2026-05-14,RR,Richtech Robotics Inc.,2.82,-0.13,-4.41,Industrials,Specialty Industrial Machinery
-2026-05-14,AMAT,"Applied Materials, Inc.",436.61,-8.89,-2.0,Technology,Semiconductor Equipment & Materials
+2026-05-14,CBRS,Cerebras Systems Inc. Class A Common Stock,317.52,,,Technology,Semiconductors
+2026-05-14,ONDS,Ondas Inc.,11.48,2.36,25.82,Technology,Communication Equipment
+2026-05-14,BA,The Boeing Company,231.64,-11.86,-4.87,Industrials,Aerospace & Defense
+2026-05-14,QUCY,Quantum Cyber N.V.,2.74,1.14,71.56,Healthcare,Diagnostics & Research
+2026-05-14,POET,POET Technologies Inc.,19.93,5.57,38.82,Technology,Semiconductors
+2026-05-14,COIN,"Coinbase Global, Inc.",217.24,15.44,7.65,Financial Services,Financial Data & Stock Exchanges
+2026-05-14,CSCO,"Cisco Systems, Inc.",114.94,-7.06,-5.78,Technology,Communication Equipment
+2026-05-14,RDW,Redwire Corporation,14.28,2.7,23.36,Industrials,Aerospace & Defense
+2026-05-14,FRMI,Fermi Inc.,7.24,1.06,17.08,Real Estate,REIT - Specialty
+2026-05-14,SNAL,"Snail, Inc.",1.3,0.39,42.75,Communication Services,Electronic Gaming & Multimedia
+2026-05-14,MOBX,"Mobix Labs, Inc.",2.78,1.01,56.78,Technology,Semiconductors
+2026-05-14,LESL,"Leslie's, Inc.",3.82,2.02,112.22,Consumer Cyclical,Specialty Retail
+2026-05-14,HOOD,"Robinhood Markets, Inc.",80.77,3.97,5.17,Financial Services,Capital Markets
+2026-05-14,BXDC,Blackstone Digital Infrastructure Trust Inc.,19.67,,,Real Estate,REIT - Specialty
+2026-05-14,MFC.TO,Manulife Financial Corporation,51.44,-3.14,-5.75,Financial Services,Insurance - Life
+2026-05-14,MSTR,Strategy Inc,191.45,13.4,7.52,Technology,Software - Application
+2026-05-14,KEEL,Keel Infrastructure Corp.,4.57,0.39,9.21,Technology,Information Technology Services
+2026-05-14,ENPH,"Enphase Energy, Inc.",47.77,5.34,12.59,Technology,Solar
+2026-05-14,KLAR,Klarna Group plc,15.75,1.67,11.86,Technology,Software - Infrastructure
+2026-05-14,DOCS,"Doximity, Inc.",17.38,-1.76,-9.21,Healthcare,Health Information Services
+2026-05-14,LUMN,"Lumen Technologies, Inc.",10.56,1.12,11.87,Communication Services,Telecom Services
+2026-05-14,TTWO,"Take-Two Interactive Software, Inc.",241.93,13.78,6.04,Communication Services,Electronic Gaming & Multimedia
+2026-05-14,SEDG,"SolarEdge Technologies, Inc.",48.54,5.22,12.06,Technology,Solar
+2026-05-14,ALP,Alpha Compute Corp,0.34,0.03,8.05,Financial Services,Asset Management
+2026-05-14,PCT,"PureCycle Technologies, Inc.",12.27,2.09,20.53,Industrials,Pollution & Treatment Controls
