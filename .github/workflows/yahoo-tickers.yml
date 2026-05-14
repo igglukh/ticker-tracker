@@ -4,7 +4,9 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "*/5 * * * *"
+    # Production schedule: every weekday at 12:17 New York time.
+    # 12:17 NY = 18:17 Zurich during daylight saving time.
+    - cron: "17 12 * * 1-5"
       timezone: "America/New_York"
 
 permissions:
