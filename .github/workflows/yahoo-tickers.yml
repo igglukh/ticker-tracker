@@ -4,10 +4,11 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Production schedule: every weekday at 12:17 New York time.
-    # 12:17 NY = 18:17 Zurich during daylight saving time.
-    - cron: "17 12 * * 1-5"
-      timezone: "America/New_York"
+    # 12:17 New York during EDT = 16:17 UTC
+    - cron: "17 16 * * 1-5"
+
+    # 12:17 New York during EST = 17:17 UTC
+    - cron: "17 17 * * 1-5"
 
 permissions:
   contents: write
@@ -21,30 +22,56 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Decide whether to run
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run detected. Proceeding."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          ny_hm=$(TZ="America/New_York" date +%H:%M)
+          echo "NY time: $ny_hm"
+
+          if [ "$ny_hm" = "12:17" ]; then
+            echo "It is 12:17 NY. Proceeding."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Not 12:17 NY. Skipping job."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout repository
+        if: steps.gate.outputs.should_run == 'true'
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Synchronize with latest main
+        if: steps.gate.outputs.should_run == 'true'
         run: |
           set -euxo pipefail
           git pull --rebase origin main
 
       - name: Set up Python
+        if: steps.gate.outputs.should_run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
+        if: steps.gate.outputs.should_run == 'true'
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Run scraper
+        if: steps.gate.outputs.should_run == 'true'
         run: python script.py
 
       - name: Commit updated CSV files
+        if: steps.gate.outputs.should_run == 'true'
         run: |
           set -euxo pipefail
 
