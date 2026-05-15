@@ -99,3 +99,28 @@ date,ticker,name,price,change,percent_change,sector,industry
 2026-05-14,SEDG,"SolarEdge Technologies, Inc.",48.54,5.22,12.06,Technology,Solar
 2026-05-14,ALP,Alpha Compute Corp,0.34,0.03,8.05,Financial Services,Asset Management
 2026-05-14,PCT,"PureCycle Technologies, Inc.",12.27,2.09,20.53,Industrials,Pollution & Treatment Controls
+2026-05-15,MSFT,Microsoft Corporation,427.52,19.42,4.76,Technology,Software - Infrastructure
+2026-05-15,HCWB,HCW Biologics Inc.,1.07,0.32,42.0,Healthcare,Biotechnology
+2026-05-15,PIII,P3 Health Partners Inc.,10.88,5.13,89.21,Healthcare,Medical Care Facilities
+2026-05-15,FIG,"Figma, Inc.",23.39,0.79,3.49,Technology,Software - Application
+2026-05-15,MRNO,Murano Global Investments Plc,0.55,0.13,29.9,Real Estate,Real Estate - Development
+2026-05-15,AUUD,Auddia Inc.,1.97,0.77,63.75,Technology,Software - Application
+2026-05-15,SEDG,"SolarEdge Technologies, Inc.",61.94,11.93,23.86,Technology,Solar
+2026-05-15,MXL,"MaxLinear, Inc.",95.01,6.01,6.75,Technology,Semiconductors
+2026-05-15,DVLT,Datavault AI Inc.,0.52,-0.12,-18.98,Technology,Software - Infrastructure
+2026-05-15,HUBC,HUB Cyber Security Ltd.,0.14,-0.01,-5.74,Technology,Software - Infrastructure
+2026-05-15,SLE,"Super League Enterprise, Inc.",6.01,2.01,50.25,Communication Services,Internet Content & Information
+2026-05-15,NU,Nu Holdings Ltd.,12.27,-0.16,-1.29,Financial Services,Banks - Regional
+2026-05-15,GEMI,"Gemini Space Station, Inc.",5.68,-0.67,-10.53,Financial Services,Capital Markets
+2026-05-15,MICC,The Magnum Ice Cream Company N.V.,16.6,1.87,12.73,Consumer Defensive,Packaged Foods
+2026-05-15,NEM,Newmont Corporation,109.43,-6.86,-5.89,Basic Materials,Gold
+2026-05-15,FUN,Six Flags Entertainment Corporation,21.71,1.13,5.49,Consumer Cyclical,Leisure
+2026-05-15,SG,"Sweetgreen, Inc.",7.91,1.01,14.71,Consumer Cyclical,Restaurants
+2026-05-15,HYLN,Hyliion Holdings Corp.,4.66,1.01,27.7,Consumer Cyclical,Auto Parts
+2026-05-15,BIYA,Baiya International Group Inc.,0.98,-0.22,-18.5,Technology,Software - Application
+2026-05-15,CERS,Cerus Corporation,2.39,-0.15,-6.05,Healthcare,Medical Devices
+2026-05-15,SKK,SKK Holdings Limited,4.83,1.45,42.95,Industrials,Engineering & Construction
+2026-05-15,B,Barrick Mining Corporation,40.81,-2.43,-5.63,Basic Materials,Gold
+2026-05-15,BOT,"Robostrategy, Inc.",35.79,6.79,23.43,Financial Services,Asset Management
+2026-05-15,SHLS,"Shoals Technologies Group, Inc.",10.35,0.99,10.52,Technology,Solar
+2026-05-15,ORGN,"Origin Materials, Inc.",1.5,0.18,13.64,Basic Materials,Chemicals
